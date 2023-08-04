@@ -30,7 +30,7 @@ cores in parallel, to perform the inference (which takes some time, say, 30 to
 
 To combine the four chains (i.e., four independent reconstructions) into one
 final result and to visualise said result, run (from within this directory)
-`$ python3 ../bicyclus/visualize/merge.py NAME_OF_OUTPUTFILE.cdf` [^1].
+`$ python3 ../bicyclus/postprocessing/merge.py NAME_OF_OUTPUTFILE.cdf` [^1].
 We get the following density plot:
 ![Plot of the posterior feed assay probability density](plots/plot_merge_density.png)
 Note how the prior density (uniform on 0.0065 to 0.01) got restricted to a much

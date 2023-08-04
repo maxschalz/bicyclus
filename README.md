@@ -61,7 +61,7 @@ $ cd bicyclus
 $ pip3 install .
 ```
 You can still run the inference process, but features from
-`bicyclus/visualize` may not be available.
+`bicyclus/postprocessing` may not be available.
 
 ### Tutorial
 #### Inference mode
