@@ -11,5 +11,4 @@ from .parsers import (
     ReconstructionParser,
     SamplingParser,
 )
-from .postprocessing import extract_from_log, extract_single_log
 from .util import generate_start_values, sampling_parameter_to_pymc, save_trace
